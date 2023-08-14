@@ -1,0 +1,130 @@
+.team-wrapper {
+    display: flex;
+    flex-direction: row;
+    padding: 3rem;
+    gap: 3rem;
+   
+}
+
+.team-details{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    row-gap: 2.5rem;
+    column-gap: 2.5rem;
+    width: 50%;
+}
+
+.team-text {
+    width: 50%;
+    margin-top: 7rem;
+}
+
+.details{
+    color: #FFD39E;
+    text-align: left;
+    margin-top: 80px;
+    padding: 10px;
+    font: normal normal medium 29px/39px General Sans;
+    font-size: 19px;
+    margin-top: 7rem;
+}
+
+.team__wrapper{
+    position: relative;
+}
+
+
+/* card details */
+.team__member__solo__container{
+    position: relative;
+}
+
+.social__media__icon,
+.social__media__icon2,
+.social__media__icon3,
+.social__media__icon4,
+.social__media__icon5,
+.social__media__icon6,
+.social__media__icon7,
+.social__media__icon8{
+    width: 3rem;
+    height: 3rem;
+    background-color: #E3902B;
+    position: absolute;
+}
+
+.social__media__icon{
+    margin: 2% 0 0 19.7%;
+}
+
+.social__media__icon2{
+    margin: 6% 0 0 19.7%;
+}
+
+.social__media__icon3{
+    margin: 2% 0 0 43.7%;
+}
+
+.social__media__icon4{
+    margin: 6% 0 0 43.7%;
+}
+
+.social__media__icon5{
+    margin: 26% 0 0 19.7%;
+}
+
+.social__media__icon6{
+    margin: 30% 0 0 19.7%;
+}
+
+.social__media__icon7{
+    margin: 26% 0 0 43.7%;
+}
+
+.social__media__icon8{
+    margin: 30% 0 0 43.7%;
+}
+
+
+
+.card__container{
+    font-family: sans-serif;
+    width: fit-content;
+    height: fit-content;
+    position: absolute;
+    margin: 71% 0 0 -3.9%;
+}
+
+.card{
+    height: fit-content;
+    width: 13rem;
+    background-color: #1d1d1d;
+    padding: 0.5rem .7rem;
+    line-height: 2rem;
+}
+
+.card h1{
+    font-size: 13px;
+    color: white;
+    font-weight: 600;
+}
+
+.card h2{
+    font-size: 13px;
+    color: #E3902B;
+}
+
+.card__holder{
+    background-color: #7c4f18;
+    width: 15rem;
+    height: 100%;
+    transform: rotate(45deg) translate(-1.7rem, 4.62rem);
+}
+
+.card__holder__container{
+    width: .8rem;
+    height: .8rem;
+    background-color: transparent;
+    overflow: hidden;
+}
+/* card details // */
